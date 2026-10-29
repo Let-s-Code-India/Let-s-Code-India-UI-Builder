@@ -1,4 +1,4 @@
-# 🚀 Let-s-Code-India UI Builder (`lets-code-india-ui-builder`)
+# 🚀 Let-s-Code-India-UI-Builder (`lets-code-india-ui-builder`)
 
 > An official elite-grade UI/UX and Frontend Design System skill architected by **Ayush Giri**, Founder of **LET-S-CODE-INDIA** (`Let-S-Code-India`).
 
