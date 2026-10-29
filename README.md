@@ -3,7 +3,7 @@
 > An official elite-grade UI/UX and Frontend Design System skill architected by **Ayush Giri**, Founder of **LET-S-CODE-INDIA** (`Let-S-Code-India`).
 
 ## 📌 Overview
-`let-S-Code-India-UI-Builder` transforms AI agents into world-class Senior Frontend Architects and Design System Engineers. It enforces strict mathematical, psychological, and accessibility standards to generate production-ready, highly responsive web interfaces and components using React, TypeScript, and Tailwind CSS.
+`let-s-Code-India-UI-Builder` transforms AI agents into world-class Senior Frontend Architects and Design System Engineers. It enforces strict mathematical, psychological, and accessibility standards to generate production-ready, highly responsive web interfaces and components using React, TypeScript, and Tailwind CSS.
 
 ## 🛠️ Core Engineering Pillars
 - **Precision Color Architecture:** Strict 60-30-10 proportionality rules across 50 curated palettes.
