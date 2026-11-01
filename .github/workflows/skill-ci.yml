@@ -1,1 +1,25 @@
-
+# Runs every automated check of the skill on each push / pull request.
+# SKILL_DIR must be the skill folder name (same as `name` in SKILL.md).
+name: skill-ci
+on:
+  push:
+  pull_request:
+env:
+  SKILL_DIR: let-s-code-india-ui-builder
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install starter dependencies
+        run: npm ci || npm install
+        working-directory: ${{ env.SKILL_DIR }}/assets/starter
+      - name: Run all skill checks
+        run: sh scripts/selftest.sh
+        working-directory: ${{ env.SKILL_DIR }}
