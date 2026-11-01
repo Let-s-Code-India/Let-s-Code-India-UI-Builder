@@ -1,0 +1,2739 @@
+{
+ "version": "2.0.0",
+ "token_order": [
+  "canvas",
+  "surface",
+  "raised",
+  "line",
+  "line-strong",
+  "fg",
+  "muted",
+  "accent",
+  "accent-fg",
+  "success",
+  "warning",
+  "danger",
+  "info"
+ ],
+ "groups": {
+  "tech": "Cyberpunk & tech - AI start-ups, crypto protocols, developer tools, web3",
+  "luxury": "Luxury & premium - jewellery, architecture studios, boutique hotels, fashion",
+  "saas": "Modern SaaS & fintech - enterprise SaaS, analytics, neobanks, finance portals",
+  "creative": "Creative, art & Gen-Z - portfolios, indie games, music, streetwear",
+  "organic": "Warm, minimal & organic - wellness, eco start-ups, meditation, craft coffee"
+ },
+ "palettes": [
+  {
+   "n": 1,
+   "id": "cyber-black-green",
+   "name": "Cyber Black-Green",
+   "group": "tech",
+   "native": "dark",
+   "mood": "security / ops, red alert accent",
+   "accent_name": "Crimson Red",
+   "seed": {
+    "canvas": "#0B0B0B",
+    "surface": "#10B981",
+    "accent": "#EF4444"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0B0B0B",
+     "surface": "#1A1A1A",
+     "raised": "#212121",
+     "line": "#383838",
+     "line-strong": "#6B6B6B",
+     "fg": "#F0F0F0",
+     "muted": "#909090",
+     "accent": "#F26969",
+     "accent-fg": "#0F0F0F",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F4F3F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#8A8989",
+     "fg": "#181616",
+     "muted": "#6C6A6A",
+     "accent": "#B13232",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {
+    "brand-2": "#10B981"
+   },
+   "notes": {
+    "dark": [
+     "surface derived (seed #10B981 unusable as card colour)",
+     "accent #EF4444 -> #F26969 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #EF4444 -> #B13232 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "id": "neon-matrix",
+   "name": "Neon Matrix",
+   "group": "tech",
+   "native": "dark",
+   "mood": "matrix green, hacker culture",
+   "accent_name": "Bright Lime",
+   "seed": {
+    "canvas": "#050505",
+    "surface": "#047857",
+    "accent": "#22C55E"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#050505",
+     "surface": "#191919",
+     "raised": "#222222",
+     "line": "#373737",
+     "line-strong": "#6C6C6C",
+     "fg": "#F0F0F0",
+     "muted": "#8D8D8D",
+     "accent": "#22C55E",
+     "accent-fg": "#0F0F0F",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F3F4F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDFDE",
+     "line-strong": "#898A89",
+     "fg": "#161816",
+     "muted": "#6A6C6A",
+     "accent": "#147237",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {
+    "brand-2": "#047857"
+   },
+   "notes": {
+    "dark": [
+     "surface derived (seed #047857 unusable as card colour)"
+    ],
+    "light": [
+     "accent #22C55E -> #147237 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 3,
+   "id": "cyberpunk-void",
+   "name": "Cyberpunk Void",
+   "group": "tech",
+   "native": "dark",
+   "mood": "neon purple, web3, gaming",
+   "accent_name": "Neon Purple",
+   "seed": {
+    "canvas": "#09090B",
+    "surface": "#27272A",
+    "accent": "#A855F7"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#09090B",
+     "surface": "#27272A",
+     "raised": "#2D2D30",
+     "line": "#434346",
+     "line-strong": "#777779",
+     "fg": "#EEEEF1",
+     "muted": "#97979A",
+     "accent": "#C48BFA",
+     "accent-fg": "#0E0E11",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F97F7F",
+     "info": "#66A9FA"
+    },
+    "light": {
+     "canvas": "#F3F3F4",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#89898A",
+     "fg": "#161618",
+     "muted": "#6A6A6C",
+     "accent": "#8342C1",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #A855F7 -> #C48BFA (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #A855F7 -> #8342C1 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 4,
+   "id": "hacker-terminal",
+   "name": "Hacker Terminal",
+   "group": "tech",
+   "native": "dark",
+   "mood": "GitHub-dark feel, dev tools, docs",
+   "accent_name": "GitHub Green",
+   "seed": {
+    "canvas": "#0D1117",
+    "surface": "#161B22",
+    "accent": "#3FB950"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0D1117",
+     "surface": "#161B22",
+     "raised": "#1D2229",
+     "line": "#34393F",
+     "line-strong": "#6B6E73",
+     "fg": "#ECEFF3",
+     "muted": "#8E9297",
+     "accent": "#3FB950",
+     "accent-fg": "#0C0F12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F2F3F5",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#87898C",
+     "fg": "#14161A",
+     "muted": "#686A6D",
+     "accent": "#277332",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #3FB950 -> #277332 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 5,
+   "id": "dark-synthwave",
+   "name": "Dark Synthwave",
+   "group": "tech",
+   "native": "dark",
+   "mood": "retro pink-violet, music, events",
+   "accent_name": "Neon Pink",
+   "seed": {
+    "canvas": "#120A2A",
+    "surface": "#2D1B69",
+    "accent": "#FF007F"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#120A2A",
+     "surface": "#2D1B69",
+     "raised": "#33226E",
+     "line": "#48387C",
+     "line-strong": "#7C768A",
+     "fg": "#EEECF3",
+     "muted": "#A39FAF",
+     "accent": "#FF7ABC",
+     "accent-fg": "#0E0C12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F98585",
+     "info": "#6AAAFA"
+    },
+    "light": {
+     "canvas": "#F2F1F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#8C8A92",
+     "fg": "#14121C",
+     "muted": "#68676F",
+     "accent": "#BD005E",
+     "accent-fg": "#FAF9FA",
+     "success": "#127136",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #FF007F -> #FF7ABC (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #FF007F -> #BD005E (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 6,
+   "id": "glitch-violet",
+   "name": "Glitch Violet",
+   "group": "tech",
+   "native": "dark",
+   "mood": "indigo glow, AI products",
+   "accent_name": "Indigo Glow",
+   "seed": {
+    "canvas": "#0A0A12",
+    "surface": "#1E1B4B",
+    "accent": "#6366F1"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0A0A12",
+     "surface": "#1E1B4B",
+     "raised": "#252250",
+     "line": "#3B3863",
+     "line-strong": "#72727A",
+     "fg": "#ECECF3",
+     "muted": "#96969E",
+     "accent": "#9597F5",
+     "accent-fg": "#0C0C12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F2F2F5",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#87878C",
+     "fg": "#14141A",
+     "muted": "#68686D",
+     "accent": "#5154C6",
+     "accent-fg": "#F9F9FA",
+     "success": "#137337",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #6366F1 -> #9597F5 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #6366F1 -> #5154C6 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 7,
+   "id": "quantum-teal",
+   "name": "Quantum Teal",
+   "group": "tech",
+   "native": "dark",
+   "mood": "calm teal, data and science tools",
+   "accent_name": "Teal Pop",
+   "seed": {
+    "canvas": "#030712",
+    "surface": "#1F2937",
+    "accent": "#14B8A6"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#030712",
+     "surface": "#1F2937",
+     "raised": "#262F3D",
+     "line": "#3C4551",
+     "line-strong": "#787A82",
+     "fg": "#ECEEF3",
+     "muted": "#9D9FA6",
+     "accent": "#1DBBAA",
+     "accent-fg": "#0C0E12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F98282",
+     "info": "#6AAAFA"
+    },
+    "light": {
+     "canvas": "#F1F2F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#8A8C92",
+     "fg": "#12141C",
+     "muted": "#67686F",
+     "accent": "#0C6E64",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #14B8A6 -> #1DBBAA (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #14B8A6 -> #0C6E64 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 8,
+   "id": "electric-horizon",
+   "name": "Electric Horizon",
+   "group": "tech",
+   "native": "dark",
+   "mood": "sky blue, cloud and infrastructure",
+   "accent_name": "Sky Blue",
+   "seed": {
+    "canvas": "#020617",
+    "surface": "#0F172A",
+    "accent": "#38BDF8"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#020617",
+     "surface": "#0F172A",
+     "raised": "#192033",
+     "line": "#2E3546",
+     "line-strong": "#696C78",
+     "fg": "#ECEEF3",
+     "muted": "#8A8D97",
+     "accent": "#38BDF8",
+     "accent-fg": "#0C0D12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F1F2F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#8A8C92",
+     "fg": "#12141C",
+     "muted": "#67686F",
+     "accent": "#1F6A8B",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #38BDF8 -> #1F6A8B (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 9,
+   "id": "laser-amber",
+   "name": "Laser Amber",
+   "group": "tech",
+   "native": "dark",
+   "mood": "amber on navy, monitoring, ops",
+   "accent_name": "Amber Laser",
+   "seed": {
+    "canvas": "#090D16",
+    "surface": "#1E293B",
+    "accent": "#F59E0B"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#090D16",
+     "surface": "#1E293B",
+     "raised": "#252F41",
+     "line": "#3B4555",
+     "line-strong": "#767980",
+     "fg": "#ECEEF3",
+     "muted": "#96989F",
+     "accent": "#F59E0B",
+     "accent-fg": "#0C0E12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F98282",
+     "info": "#6AAAFA"
+    },
+    "light": {
+     "canvas": "#F1F3F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#86898D",
+     "fg": "#12161C",
+     "muted": "#676A6F",
+     "accent": "#895806",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #F59E0B -> #895806 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 10,
+   "id": "plasma-orange",
+   "name": "Plasma Orange",
+   "group": "tech",
+   "native": "dark",
+   "mood": "hot orange on black, energy, gaming",
+   "accent_name": "Plasma Flame",
+   "seed": {
+    "canvas": "#0F0505",
+    "surface": "#260D0D",
+    "accent": "#F97316"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0F0505",
+     "surface": "#260D0D",
+     "raised": "#2F1717",
+     "line": "#432C2C",
+     "line-strong": "#6F6666",
+     "fg": "#F3ECEC",
+     "muted": "#938B8B",
+     "accent": "#F97316",
+     "accent-fg": "#120C0C",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F6F1F1",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#928A8A",
+     "fg": "#1C1212",
+     "muted": "#6F6767",
+     "accent": "#9F4A0E",
+     "accent-fg": "#FAF9F9",
+     "success": "#137337",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #F97316 -> #9F4A0E (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 11,
+   "id": "royal-velvet",
+   "name": "Royal Velvet",
+   "group": "luxury",
+   "native": "dark",
+   "mood": "champagne gold, jewellery, hotels",
+   "accent_name": "Champagne Gold",
+   "seed": {
+    "canvas": "#1C1412",
+    "surface": "#2D2320",
+    "accent": "#D4AF37"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#1C1412",
+     "surface": "#2D2320",
+     "raised": "#332A27",
+     "line": "#493F3D",
+     "line-strong": "#7B7472",
+     "fg": "#F3EEEC",
+     "muted": "#A19B99",
+     "accent": "#D4AF37",
+     "accent-fg": "#120D0C",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F97F7F",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F5F3F2",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#8C8987",
+     "fg": "#1A1614",
+     "muted": "#6D6A68",
+     "accent": "#77621F",
+     "accent-fg": "#FAFAF9",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #D4AF37 -> #77621F (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 12,
+   "id": "midnight-bronze",
+   "name": "Midnight Bronze",
+   "group": "luxury",
+   "native": "dark",
+   "mood": "bronze, fine dining, spirits",
+   "accent_name": "Antique Bronze",
+   "seed": {
+    "canvas": "#141210",
+    "surface": "#26221D",
+    "accent": "#E2A03F"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#141210",
+     "surface": "#26221D",
+     "raised": "#2D2924",
+     "line": "#423F3A",
+     "line-strong": "#757472",
+     "fg": "#F1F0EE",
+     "muted": "#949391",
+     "accent": "#E2A03F",
+     "accent-fg": "#110F0E",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87777",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F4F4F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDFDE",
+     "line-strong": "#8A8A89",
+     "fg": "#181816",
+     "muted": "#6C6C6A",
+     "accent": "#835D25",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #E2A03F -> #835D25 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 13,
+   "id": "espresso-copper",
+   "name": "Espresso Copper",
+   "group": "luxury",
+   "native": "dark",
+   "mood": "copper warmth, cafe and craft",
+   "accent_name": "Warm Copper",
+   "seed": {
+    "canvas": "#1A1110",
+    "surface": "#33221E",
+    "accent": "#D97706"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#1A1110",
+     "surface": "#33221E",
+     "raised": "#392925",
+     "line": "#4E3E3B",
+     "line-strong": "#7E7675",
+     "fg": "#F3EDEC",
+     "muted": "#A19998",
+     "accent": "#E1953D",
+     "accent-fg": "#120D0C",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F97F7F",
+     "info": "#63A7FA"
+    },
+    "light": {
+     "canvas": "#F5F3F2",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#8C8987",
+     "fg": "#1A1614",
+     "muted": "#6D6A68",
+     "accent": "#985304",
+     "accent-fg": "#FAFAF9",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #D97706 -> #E1953D (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #D97706 -> #985304 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 14,
+   "id": "sleek-mahogany",
+   "name": "Sleek Mahogany",
+   "group": "luxury",
+   "native": "dark",
+   "mood": "golden yellow on mahogany, heritage",
+   "accent_name": "Golden Yellow",
+   "seed": {
+    "canvas": "#1A0F0D",
+    "surface": "#3D231E",
+    "accent": "#FBBF24"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#1A0F0D",
+     "surface": "#3D231E",
+     "raised": "#432A25",
+     "line": "#563F3B",
+     "line-strong": "#827A78",
+     "fg": "#F3EDEC",
+     "muted": "#A19997",
+     "accent": "#FBBF24",
+     "accent-fg": "#120D0C",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F98888",
+     "info": "#6AAAFA"
+    },
+    "light": {
+     "canvas": "#F5F2F2",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#8C8787",
+     "fg": "#1A1414",
+     "muted": "#6D6868",
+     "accent": "#7D5F12",
+     "accent-fg": "#FAF9F9",
+     "success": "#137337",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #FBBF24 -> #7D5F12 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 15,
+   "id": "onyx-platinum",
+   "name": "Onyx Platinum",
+   "group": "luxury",
+   "native": "dark",
+   "mood": "silver monochrome, watches, tech luxury",
+   "accent_name": "Platinum Silver",
+   "seed": {
+    "canvas": "#0E0E10",
+    "surface": "#232329",
+    "accent": "#E5E7EB"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0E0E10",
+     "surface": "#232329",
+     "raised": "#2A2A2F",
+     "line": "#404045",
+     "line-strong": "#767678",
+     "fg": "#EFEFF1",
+     "muted": "#9A9A9C",
+     "accent": "#E5E7EB",
+     "accent-fg": "#0E0E10",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87A7A",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F3F3F4",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#89898A",
+     "fg": "#161618",
+     "muted": "#6A6A6C",
+     "accent": "#606163",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #E5E7EB -> #606163 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 16,
+   "id": "dark-truffle",
+   "name": "Dark Truffle",
+   "group": "luxury",
+   "native": "dark",
+   "mood": "ochre on warm black, galleries",
+   "accent_name": "Warm Ochre",
+   "seed": {
+    "canvas": "#1C1917",
+    "surface": "#292524",
+    "accent": "#D97706"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#1C1917",
+     "surface": "#292524",
+     "raised": "#2F2C2B",
+     "line": "#454140",
+     "line-strong": "#7A7776",
+     "fg": "#F1EFEE",
+     "muted": "#989594",
+     "accent": "#E19238",
+     "accent-fg": "#110F0E",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F97F7F",
+     "info": "#63A7FA"
+    },
+    "light": {
+     "canvas": "#F4F3F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#8A8989",
+     "fg": "#181616",
+     "muted": "#6C6A6A",
+     "accent": "#985304",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #D97706 -> #E19238 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #D97706 -> #985304 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 17,
+   "id": "classic-noir",
+   "name": "Classic Noir",
+   "group": "luxury",
+   "native": "dark",
+   "mood": "ivory on black, fashion, editorial",
+   "accent_name": "Pure Ivory",
+   "seed": {
+    "canvas": "#0A0A0A",
+    "surface": "#1F1F1F",
+    "accent": "#F5F5F4"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0A0A0A",
+     "surface": "#1F1F1F",
+     "raised": "#262626",
+     "line": "#3C3C3C",
+     "line-strong": "#6F6F6F",
+     "fg": "#F0F0F0",
+     "muted": "#8F8F8F",
+     "accent": "#F5F5F4",
+     "accent-fg": "#0F0F0F",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F4F4F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDFDE",
+     "line-strong": "#8A8A89",
+     "fg": "#181816",
+     "muted": "#6C6C6A",
+     "accent": "#626262",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #F5F5F4 -> #626262 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 18,
+   "id": "titanium-gold",
+   "name": "Titanium Gold",
+   "group": "luxury",
+   "native": "dark",
+   "mood": "navy and gold, private banking",
+   "accent_name": "Rich Gold",
+   "seed": {
+    "canvas": "#111827",
+    "surface": "#1F2937",
+    "accent": "#FBBF24"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#111827",
+     "surface": "#1F2937",
+     "raised": "#262F3D",
+     "line": "#3C4551",
+     "line-strong": "#767A85",
+     "fg": "#ECEEF3",
+     "muted": "#999DA5",
+     "accent": "#FBBF24",
+     "accent-fg": "#0C0E12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F98282",
+     "info": "#6AAAFA"
+    },
+    "light": {
+     "canvas": "#F1F3F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#86898D",
+     "fg": "#12161C",
+     "muted": "#676A6F",
+     "accent": "#7D5F12",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #FBBF24 -> #7D5F12 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 19,
+   "id": "royal-emerald-gold",
+   "name": "Royal Emerald Gold",
+   "group": "luxury",
+   "native": "dark",
+   "mood": "emerald and gold, heritage brands",
+   "accent_name": "Bright Gold",
+   "seed": {
+    "canvas": "#062E1C",
+    "surface": "#0D4A2D",
+    "accent": "#FDE047"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#062E1C",
+     "surface": "#0D4A2D",
+     "raised": "#175135",
+     "line": "#2C6248",
+     "line-strong": "#82988E",
+     "fg": "#ECF3F0",
+     "muted": "#B0C0B9",
+     "accent": "#FDE047",
+     "accent-fg": "#0C1210",
+     "success": "#71E0B8",
+     "warning": "#FBBF24",
+     "danger": "#FCB8B8",
+     "info": "#ACD0FC"
+    },
+    "light": {
+     "canvas": "#F1F6F4",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDFDF",
+     "line-strong": "#868D8A",
+     "fg": "#121C18",
+     "muted": "#676F6C",
+     "accent": "#6F631F",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #FDE047 -> #6F631F (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 20,
+   "id": "deep-burgundy-gold",
+   "name": "Deep Burgundy Gold",
+   "group": "luxury",
+   "native": "dark",
+   "mood": "burgundy and gold, wine, events",
+   "accent_name": "Gold Accent",
+   "seed": {
+    "canvas": "#2A0808",
+    "surface": "#4A0E0E",
+    "accent": "#FCD34D"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#2A0808",
+     "surface": "#4A0E0E",
+     "raised": "#511818",
+     "line": "#622D2D",
+     "line-strong": "#867171",
+     "fg": "#F3ECEC",
+     "muted": "#A79595",
+     "accent": "#FCD34D",
+     "accent-fg": "#120C0C",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F97F7F",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F6F1F1",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#928A8A",
+     "fg": "#1C1212",
+     "muted": "#6F6767",
+     "accent": "#746123",
+     "accent-fg": "#FAF9F9",
+     "success": "#137337",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #FCD34D -> #746123 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 21,
+   "id": "midnight-slate",
+   "name": "Midnight Slate",
+   "group": "saas",
+   "native": "dark",
+   "mood": "slate and cyan, analytics",
+   "accent_name": "Cyan Spark",
+   "seed": {
+    "canvas": "#0F172A",
+    "surface": "#334155",
+    "accent": "#06B6D4"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0F172A",
+     "surface": "#334155",
+     "raised": "#39475A",
+     "line": "#4D596B",
+     "line-strong": "#8F949F",
+     "fg": "#ECEEF3",
+     "muted": "#B3B6BF",
+     "accent": "#79D8E8",
+     "accent-fg": "#0C0E12",
+     "success": "#6DDFB6",
+     "warning": "#FBBF24",
+     "danger": "#FCBBBB",
+     "info": "#A9CEFC"
+    },
+    "light": {
+     "canvas": "#F1F3F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#86898D",
+     "fg": "#12161C",
+     "muted": "#676A6F",
+     "accent": "#046D7F",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #06B6D4 -> #79D8E8 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #06B6D4 -> #046D7F (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 22,
+   "id": "deep-fintech",
+   "name": "Deep FinTech",
+   "group": "saas",
+   "native": "dark",
+   "mood": "trust blue, neobank, payments",
+   "accent_name": "Trust Blue",
+   "seed": {
+    "canvas": "#0A0F1D",
+    "surface": "#1E293B",
+    "accent": "#3B82F6"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0A0F1D",
+     "surface": "#1E293B",
+     "raised": "#252F41",
+     "line": "#3B4555",
+     "line-strong": "#767A84",
+     "fg": "#ECEEF3",
+     "muted": "#9699A2",
+     "accent": "#7AAAF9",
+     "accent-fg": "#0C0E12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F98282",
+     "info": "#6AAAFA"
+    },
+    "light": {
+     "canvas": "#F1F2F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#8A8C92",
+     "fg": "#12141C",
+     "muted": "#67686F",
+     "accent": "#2C60B6",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #3B82F6 -> #7AAAF9 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #3B82F6 -> #2C60B6 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 23,
+   "id": "emerald-growth",
+   "name": "Emerald Growth",
+   "group": "saas",
+   "native": "dark",
+   "mood": "neutral dark with green, growth",
+   "accent_name": "Success Emerald",
+   "seed": {
+    "canvas": "#121212",
+    "surface": "#1E1E1E",
+    "accent": "#34D399"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#121212",
+     "surface": "#1E1E1E",
+     "raised": "#252525",
+     "line": "#3B3B3B",
+     "line-strong": "#6F6F6F",
+     "fg": "#F0F0F0",
+     "muted": "#939393",
+     "accent": "#34D399",
+     "accent-fg": "#0F0F0F",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F3F4F4",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDFDF",
+     "line-strong": "#898A8A",
+     "fg": "#161818",
+     "muted": "#6A6C6C",
+     "accent": "#1C7253",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #34D399 -> #1C7253 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 24,
+   "id": "crypto-obsidian",
+   "name": "Crypto Obsidian",
+   "group": "saas",
+   "native": "dark",
+   "mood": "profit green, trading",
+   "accent_name": "Profit Green",
+   "seed": {
+    "canvas": "#0B0F19",
+    "surface": "#172033",
+    "accent": "#10B981"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0B0F19",
+     "surface": "#172033",
+     "raised": "#1E2739",
+     "line": "#353D4E",
+     "line-strong": "#6E7179",
+     "fg": "#ECEEF3",
+     "muted": "#8E9097",
+     "accent": "#10B981",
+     "accent-fg": "#0C0E12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F2F3F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#87888D",
+     "fg": "#13151B",
+     "muted": "#68696E",
+     "accent": "#0A6F4D",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #10B981 -> #0A6F4D (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 25,
+   "id": "saas-indigo",
+   "name": "SaaS Indigo",
+   "group": "saas",
+   "native": "dark",
+   "mood": "indigo, B2B SaaS",
+   "accent_name": "Indigo Pop",
+   "seed": {
+    "canvas": "#030712",
+    "surface": "#111827",
+    "accent": "#6366F1"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#030712",
+     "surface": "#111827",
+     "raised": "#1B2130",
+     "line": "#303644",
+     "line-strong": "#6A6D75",
+     "fg": "#ECEEF3",
+     "muted": "#8A8D94",
+     "accent": "#8C8EF5",
+     "accent-fg": "#0C0E12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F1F2F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#8A8C92",
+     "fg": "#12141C",
+     "muted": "#67686F",
+     "accent": "#5154C6",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #6366F1 -> #8C8EF5 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #6366F1 -> #5154C6 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 26,
+   "id": "cloud-violet",
+   "name": "Cloud Violet",
+   "group": "saas",
+   "native": "dark",
+   "mood": "violet, cloud and AI SaaS",
+   "accent_name": "Vivid Purple",
+   "seed": {
+    "canvas": "#0F071E",
+    "surface": "#1E1B4B",
+    "accent": "#8B5CF6"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0F071E",
+     "surface": "#1E1B4B",
+     "raised": "#252250",
+     "line": "#3B3863",
+     "line-strong": "#767080",
+     "fg": "#EFECF3",
+     "muted": "#9A95A2",
+     "accent": "#AE8DF9",
+     "accent-fg": "#0E0C12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F3F1F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#8D8A92",
+     "fg": "#16121C",
+     "muted": "#6A676F",
+     "accent": "#6F4AC5",
+     "accent-fg": "#FAF9FA",
+     "success": "#127136",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #8B5CF6 -> #AE8DF9 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #8B5CF6 -> #6F4AC5 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 27,
+   "id": "enterprise-navy",
+   "name": "Enterprise Navy",
+   "group": "saas",
+   "native": "dark",
+   "mood": "royal blue, enterprise, HR",
+   "accent_name": "Royal Blue",
+   "seed": {
+    "canvas": "#090D16",
+    "surface": "#1E293B",
+    "accent": "#2563EB"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#090D16",
+     "surface": "#1E293B",
+     "raised": "#252F41",
+     "line": "#3B4555",
+     "line-strong": "#767980",
+     "fg": "#ECEEF3",
+     "muted": "#96989F",
+     "accent": "#85A8F4",
+     "accent-fg": "#0C0E12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F98282",
+     "info": "#6AAAFA"
+    },
+    "light": {
+     "canvas": "#F1F3F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#86898D",
+     "fg": "#12161C",
+     "muted": "#676A6F",
+     "accent": "#2159D4",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #2563EB -> #85A8F4 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #2563EB -> #2159D4 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 28,
+   "id": "analytics-teal",
+   "name": "Analytics Teal",
+   "group": "saas",
+   "native": "dark",
+   "mood": "deep teal, BI dashboards",
+   "accent_name": "Bright Teal",
+   "seed": {
+    "canvas": "#042F2E",
+    "surface": "#134E4A",
+    "accent": "#2DD4BF"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#042F2E",
+     "surface": "#134E4A",
+     "raised": "#1A534F",
+     "line": "#316562",
+     "line-strong": "#869D9C",
+     "fg": "#ECF3F3",
+     "muted": "#B0C0C0",
+     "accent": "#7DE4D7",
+     "accent-fg": "#0C1212",
+     "success": "#81E4C0",
+     "warning": "#FCC843",
+     "danger": "#FCC1C1",
+     "info": "#B3D4FD"
+    },
+    "light": {
+     "canvas": "#F1F6F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDFDF",
+     "line-strong": "#868D8D",
+     "fg": "#121C1C",
+     "muted": "#676F6F",
+     "accent": "#176E63",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #2DD4BF -> #7DE4D7 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #2DD4BF -> #176E63 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 29,
+   "id": "dashboard-rose",
+   "name": "Dashboard Rose",
+   "group": "saas",
+   "native": "dark",
+   "mood": "rose alerts, admin and ops",
+   "accent_name": "Alert Rose",
+   "seed": {
+    "canvas": "#18181B",
+    "surface": "#27272A",
+    "accent": "#F43F5E"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#18181B",
+     "surface": "#27272A",
+     "raised": "#2D2D30",
+     "line": "#434346",
+     "line-strong": "#777779",
+     "fg": "#EFEFF1",
+     "muted": "#9D9DA0",
+     "accent": "#F88095",
+     "accent-fg": "#0E0E10",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F97F7F",
+     "info": "#66A9FA"
+    },
+    "light": {
+     "canvas": "#F3F3F4",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#89898A",
+     "fg": "#161618",
+     "muted": "#6A6A6C",
+     "accent": "#B52F46",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #F43F5E -> #F88095 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #F43F5E -> #B52F46 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 30,
+   "id": "clean-minimalist-saas",
+   "name": "Clean Minimalist SaaS",
+   "group": "saas",
+   "native": "light",
+   "mood": "light, action blue, default product UI",
+   "accent_name": "Action Blue",
+   "seed": {
+    "canvas": "#FAFAFA",
+    "surface": "#F4F4F5",
+    "accent": "#2563EB"
+   },
+   "modes": {
+    "light": {
+     "canvas": "#F4F4F5",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDFDF",
+     "line-strong": "#8A8A8A",
+     "fg": "#171717",
+     "muted": "#6B6B6B",
+     "accent": "#225BD8",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    },
+    "dark": {
+     "canvas": "#101113",
+     "surface": "#191A1D",
+     "raised": "#202124",
+     "line": "#37383B",
+     "line-strong": "#6D6E70",
+     "fg": "#EEEFF1",
+     "muted": "#919294",
+     "accent": "#6B95F1",
+     "accent-fg": "#0E0F11",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "light": [
+     "canvas #FAFAFA -> #F4F4F5, surface -> #FFFFFF (layering)",
+     "accent #2563EB -> #225BD8 (4.5:1 on canvas/surface)"
+    ],
+    "dark": [
+     "accent #2563EB -> #6B95F1 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 31,
+   "id": "obsidian-fuchsia",
+   "name": "Obsidian Fuchsia",
+   "group": "creative",
+   "native": "dark",
+   "mood": "hot fuchsia, creators, fashion",
+   "accent_name": "Hot Fuchsia",
+   "seed": {
+    "canvas": "#18181B",
+    "surface": "#27272A",
+    "accent": "#EC4899"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#18181B",
+     "surface": "#27272A",
+     "raised": "#2D2D30",
+     "line": "#434346",
+     "line-strong": "#777779",
+     "fg": "#EFEFF1",
+     "muted": "#9D9DA0",
+     "accent": "#F27FB8",
+     "accent-fg": "#0E0E10",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F97F7F",
+     "info": "#66A9FA"
+    },
+    "light": {
+     "canvas": "#F3F3F4",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#89898A",
+     "fg": "#161618",
+     "muted": "#6A6A6C",
+     "accent": "#AA346E",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #EC4899 -> #F27FB8 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #EC4899 -> #AA346E (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 32,
+   "id": "electric-sunset",
+   "name": "Electric Sunset",
+   "group": "creative",
+   "native": "dark",
+   "mood": "coral on violet, music, events",
+   "accent_name": "Sunset Coral",
+   "seed": {
+    "canvas": "#110C1D",
+    "surface": "#221738",
+    "accent": "#F43F5E"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#110C1D",
+     "surface": "#221738",
+     "raised": "#291E3E",
+     "line": "#3F3552",
+     "line-strong": "#726F7B",
+     "fg": "#EEECF3",
+     "muted": "#918E99",
+     "accent": "#F66981",
+     "accent-fg": "#0E0C12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F3F1F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#8D8A92",
+     "fg": "#16121C",
+     "muted": "#6A676F",
+     "accent": "#B52F46",
+     "accent-fg": "#FAF9FA",
+     "success": "#127136",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #F43F5E -> #F66981 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #F43F5E -> #B52F46 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 33,
+   "id": "neon-peach",
+   "name": "Neon Peach",
+   "group": "creative",
+   "native": "dark",
+   "mood": "peach on navy, playful apps",
+   "accent_name": "Neon Peach",
+   "seed": {
+    "canvas": "#0F172A",
+    "surface": "#1E293B",
+    "accent": "#FB923C"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0F172A",
+     "surface": "#1E293B",
+     "raised": "#252F41",
+     "line": "#3B4555",
+     "line-strong": "#757A86",
+     "fg": "#ECEEF3",
+     "muted": "#989CA7",
+     "accent": "#FB923C",
+     "accent-fg": "#0C0E12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F98282",
+     "info": "#6AAAFA"
+    },
+    "light": {
+     "canvas": "#F1F3F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#86898D",
+     "fg": "#12161C",
+     "muted": "#676A6F",
+     "accent": "#925523",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #FB923C -> #925523 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 34,
+   "id": "retro-vaporwave",
+   "name": "Retro Vaporwave",
+   "group": "creative",
+   "native": "dark",
+   "mood": "mint neon on purple, retro games",
+   "accent_name": "Mint Neon",
+   "seed": {
+    "canvas": "#1A0E2E",
+    "surface": "#2D1654",
+    "accent": "#00F5D4"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#1A0E2E",
+     "surface": "#2D1654",
+     "raised": "#351F5B",
+     "line": "#48346A",
+     "line-strong": "#7C7489",
+     "fg": "#EFECF3",
+     "muted": "#9E98A8",
+     "accent": "#00F5D4",
+     "accent-fg": "#0F0C12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F97C7C",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F3F1F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#8D8A92",
+     "fg": "#16121C",
+     "muted": "#6A676F",
+     "accent": "#006C5D",
+     "accent-fg": "#FAF9FA",
+     "success": "#127136",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #00F5D4 -> #006C5D (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 35,
+   "id": "cyber-lime",
+   "name": "Cyber Lime",
+   "group": "creative",
+   "native": "dark",
+   "mood": "electric lime, streetwear, indie",
+   "accent_name": "Electric Lime",
+   "seed": {
+    "canvas": "#09090B",
+    "surface": "#18181B",
+    "accent": "#84CC16"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#09090B",
+     "surface": "#18181B",
+     "raised": "#212124",
+     "line": "#363639",
+     "line-strong": "#6E6E70",
+     "fg": "#EEEEF1",
+     "muted": "#8E8E90",
+     "accent": "#84CC16",
+     "accent-fg": "#0E0E11",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F3F3F4",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#89898A",
+     "fg": "#161618",
+     "muted": "#6A6A6C",
+     "accent": "#476E0C",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #84CC16 -> #476E0C (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 36,
+   "id": "urban-violet",
+   "name": "Urban Violet",
+   "group": "creative",
+   "native": "dark",
+   "mood": "electric purple, nightlife",
+   "accent_name": "Electric Purple",
+   "seed": {
+    "canvas": "#13111C",
+    "surface": "#231F33",
+    "accent": "#A855F7"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#13111C",
+     "surface": "#231F33",
+     "raised": "#2A2639",
+     "line": "#3F3C4E",
+     "line-strong": "#73717B",
+     "fg": "#EEECF3",
+     "muted": "#929099",
+     "accent": "#C085F9",
+     "accent-fg": "#0D0C12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87474",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F3F2F5",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#89878C",
+     "fg": "#16141A",
+     "muted": "#6A686D",
+     "accent": "#8342C1",
+     "accent-fg": "#FAF9FA",
+     "success": "#137337",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #A855F7 -> #C085F9 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #A855F7 -> #8342C1 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 37,
+   "id": "neon-tangerine",
+   "name": "Neon Tangerine",
+   "group": "creative",
+   "native": "dark",
+   "mood": "tangerine on black, sports, energy",
+   "accent_name": "Deep Tangerine",
+   "seed": {
+    "canvas": "#0D0D0D",
+    "surface": "#1A1A1A",
+    "accent": "#FF5722"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0D0D0D",
+     "surface": "#1A1A1A",
+     "raised": "#212121",
+     "line": "#383838",
+     "line-strong": "#6C6C6C",
+     "fg": "#F0F0F0",
+     "muted": "#919191",
+     "accent": "#FF5E2B",
+     "accent-fg": "#0F0F0F",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F4F3F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#8A8989",
+     "fg": "#181616",
+     "muted": "#6C6A6A",
+     "accent": "#AD3B17",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #FF5722 -> #FF5E2B (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #FF5722 -> #AD3B17 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 38,
+   "id": "creative-cyan-dark",
+   "name": "Creative Cyan Dark",
+   "group": "creative",
+   "native": "dark",
+   "mood": "vivid cyan, motion and design studios",
+   "accent_name": "Vivid Cyan",
+   "seed": {
+    "canvas": "#080C14",
+    "surface": "#131C2E",
+    "accent": "#00E5FF"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#080C14",
+     "surface": "#131C2E",
+     "raised": "#1A2334",
+     "line": "#313A4A",
+     "line-strong": "#6C7076",
+     "fg": "#ECEFF3",
+     "muted": "#8C9095",
+     "accent": "#00E5FF",
+     "accent-fg": "#0C0E12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F1F3F6",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDEDF",
+     "line-strong": "#86898D",
+     "fg": "#12161C",
+     "muted": "#676A6F",
+     "accent": "#006E7A",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #00E5FF -> #006E7A (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 39,
+   "id": "midnight-neon-red",
+   "name": "Midnight Neon Red",
+   "group": "creative",
+   "native": "dark",
+   "mood": "sharp red, security, events",
+   "accent_name": "Sharp Red",
+   "seed": {
+    "canvas": "#050505",
+    "surface": "#141414",
+    "accent": "#FF1744"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#050505",
+     "surface": "#141414",
+     "raised": "#1D1D1D",
+     "line": "#333333",
+     "line-strong": "#686868",
+     "fg": "#F0F0F0",
+     "muted": "#8D8D8D",
+     "accent": "#FF4A6D",
+     "accent-fg": "#0F0F0F",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F4F3F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#8A8989",
+     "fg": "#181616",
+     "muted": "#6C6A6A",
+     "accent": "#C21134",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #FF1744 -> #FF4A6D (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #FF1744 -> #C21134 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 40,
+   "id": "cyber-lemon",
+   "name": "Cyber Lemon",
+   "group": "creative",
+   "native": "dark",
+   "mood": "lemon on warm black, bold brands",
+   "accent_name": "Neon Lemon",
+   "seed": {
+    "canvas": "#0C0A09",
+    "surface": "#1C1917",
+    "accent": "#EAB308"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0C0A09",
+     "surface": "#1C1917",
+     "raised": "#252220",
+     "line": "#3A3735",
+     "line-strong": "#716F6E",
+     "fg": "#F2EFEE",
+     "muted": "#918F8E",
+     "accent": "#EAB308",
+     "accent-fg": "#110F0D",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F4F3F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#8A8989",
+     "fg": "#181616",
+     "muted": "#6C6A6A",
+     "accent": "#7A5D04",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #EAB308 -> #7A5D04 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 41,
+   "id": "terracotta-minimal",
+   "name": "Terracotta Minimal",
+   "group": "organic",
+   "native": "light",
+   "mood": "light cream + terracotta, wellness, craft",
+   "accent_name": "Deep Terracotta",
+   "seed": {
+    "canvas": "#FAF9F5",
+    "surface": "#E7E5E4",
+    "accent": "#C2410C"
+   },
+   "modes": {
+    "light": {
+     "canvas": "#FAF9F5",
+     "surface": "#E7E5E4",
+     "raised": "#FFFFFF",
+     "line": "#CBC9C7",
+     "line-strong": "#82817A",
+     "fg": "#1C1A12",
+     "muted": "#5F5D56",
+     "accent": "#A3370A",
+     "accent-fg": "#FAFAF9",
+     "success": "#116932",
+     "warning": "#944407",
+     "danger": "#B21B1B",
+     "info": "#1C4CD4"
+    },
+    "dark": {
+     "canvas": "#16140E",
+     "surface": "#211F15",
+     "raised": "#28261C",
+     "line": "#3E3C33",
+     "line-strong": "#73716B",
+     "fg": "#F3F1EC",
+     "muted": "#96948F",
+     "accent": "#D98968",
+     "accent-fg": "#12110C",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "light": [
+     "accent #C2410C -> #A3370A (4.5:1 on canvas/surface)"
+    ],
+    "dark": [
+     "accent #C2410C -> #D98968 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 42,
+   "id": "warm-sand",
+   "name": "Warm Sand",
+   "group": "organic",
+   "native": "light",
+   "mood": "sand and ochre, hospitality",
+   "accent_name": "Warm Ochre",
+   "seed": {
+    "canvas": "#FDFBF7",
+    "surface": "#F5F2EB",
+    "accent": "#B45309"
+   },
+   "modes": {
+    "light": {
+     "canvas": "#FDFBF7",
+     "surface": "#F5F2EB",
+     "raised": "#FFFFFF",
+     "line": "#D7D4CD",
+     "line-strong": "#8C8A84",
+     "fg": "#1C1912",
+     "muted": "#686660",
+     "accent": "#9E4908",
+     "accent-fg": "#FAFAF9",
+     "success": "#137337",
+     "warning": "#9E4908",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    },
+    "dark": {
+     "canvas": "#18140C",
+     "surface": "#241E11",
+     "raised": "#2B2518",
+     "line": "#413C30",
+     "line-strong": "#74716A",
+     "fg": "#F3F1EC",
+     "muted": "#97948E",
+     "accent": "#CE8D5D",
+     "accent-fg": "#12100C",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "light": [
+     "accent #B45309 -> #9E4908 (4.5:1 on canvas/surface)"
+    ],
+    "dark": [
+     "accent #B45309 -> #CE8D5D (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 43,
+   "id": "olive-organic",
+   "name": "Olive Organic",
+   "group": "organic",
+   "native": "dark",
+   "mood": "dark olive, farm, eco",
+   "accent_name": "Fresh Olive",
+   "seed": {
+    "canvas": "#171A16",
+    "surface": "#262A24",
+    "accent": "#84CC16"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#171A16",
+     "surface": "#262A24",
+     "raised": "#2D302B",
+     "line": "#424640",
+     "line-strong": "#767975",
+     "fg": "#EFF1EE",
+     "muted": "#9D9F9C",
+     "accent": "#84CC16",
+     "accent-fg": "#0F110E",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F98585",
+     "info": "#6AAAFA"
+    },
+    "light": {
+     "canvas": "#F3F4F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDFDE",
+     "line-strong": "#898A89",
+     "fg": "#161816",
+     "muted": "#6A6C6A",
+     "accent": "#476E0C",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #84CC16 -> #476E0C (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 44,
+   "id": "forest-sage",
+   "name": "Forest Sage",
+   "group": "organic",
+   "native": "dark",
+   "mood": "forest green, sustainability",
+   "accent_name": "Sage Glow",
+   "seed": {
+    "canvas": "#0F1410",
+    "surface": "#1C241E",
+    "accent": "#10B981"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#0F1410",
+     "surface": "#1C241E",
+     "raised": "#232B25",
+     "line": "#39413B",
+     "line-strong": "#717672",
+     "fg": "#EEF2EE",
+     "muted": "#909591",
+     "accent": "#10B981",
+     "accent-fg": "#0D110E",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87777",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F3F4F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDFDE",
+     "line-strong": "#898A89",
+     "fg": "#161816",
+     "muted": "#6A6C6A",
+     "accent": "#0A7350",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [],
+    "light": [
+     "accent #10B981 -> #0A7350 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 45,
+   "id": "desert-dune",
+   "name": "Desert Dune",
+   "group": "organic",
+   "native": "dark",
+   "mood": "dune gold, travel, outdoor",
+   "accent_name": "Dune Gold",
+   "seed": {
+    "canvas": "#1F1A17",
+    "surface": "#332A25",
+    "accent": "#D97706"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#1F1A17",
+     "surface": "#332A25",
+     "raised": "#39302C",
+     "line": "#4E4641",
+     "line-strong": "#807C79",
+     "fg": "#F2EFED",
+     "muted": "#A29E9C",
+     "accent": "#E49D4C",
+     "accent-fg": "#120F0D",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F98D8D",
+     "info": "#70AEFA"
+    },
+    "light": {
+     "canvas": "#F4F3F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#8A8989",
+     "fg": "#181616",
+     "muted": "#6C6A6A",
+     "accent": "#985304",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #D97706 -> #E49D4C (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #D97706 -> #985304 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 46,
+   "id": "warm-minimalist-gray",
+   "name": "Warm Minimalist Gray",
+   "group": "organic",
+   "native": "light",
+   "mood": "light gray + violet, portfolio, blog",
+   "accent_name": "Deep Violet",
+   "seed": {
+    "canvas": "#F4F4F5",
+    "surface": "#E4E4E7",
+    "accent": "#7C3AED"
+   },
+   "modes": {
+    "light": {
+     "canvas": "#F4F4F5",
+     "surface": "#E4E4E7",
+     "raised": "#FFFFFF",
+     "line": "#C7C7CA",
+     "line-strong": "#818182",
+     "fg": "#161618",
+     "muted": "#616163",
+     "accent": "#6D33D1",
+     "accent-fg": "#FAFAFA",
+     "success": "#116932",
+     "warning": "#944407",
+     "danger": "#AE1A1A",
+     "info": "#1C4CD4"
+    },
+    "dark": {
+     "canvas": "#101013",
+     "surface": "#19191D",
+     "raised": "#222226",
+     "line": "#37373B",
+     "line-strong": "#6D6D70",
+     "fg": "#EEEEF1",
+     "muted": "#919194",
+     "accent": "#AB81F3",
+     "accent-fg": "#0E0E11",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "light": [
+     "accent #7C3AED -> #6D33D1 (4.5:1 on canvas/surface)"
+    ],
+    "dark": [
+     "accent #7C3AED -> #AB81F3 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 47,
+   "id": "cozy-latte",
+   "name": "Cozy Latte",
+   "group": "organic",
+   "native": "light",
+   "mood": "latte and coffee, bakery, cafe",
+   "accent_name": "Rich Coffee",
+   "seed": {
+    "canvas": "#FAF7F2",
+    "surface": "#EFECE6",
+    "accent": "#92400E"
+   },
+   "modes": {
+    "light": {
+     "canvas": "#FAF7F2",
+     "surface": "#EFECE6",
+     "raised": "#FFFFFF",
+     "line": "#D1CEC8",
+     "line-strong": "#87837E",
+     "fg": "#1C1812",
+     "muted": "#67645E",
+     "accent": "#92400E",
+     "accent-fg": "#FAFAF9",
+     "success": "#126E34",
+     "warning": "#9B4708",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    },
+    "dark": {
+     "canvas": "#17130C",
+     "surface": "#231D12",
+     "raised": "#2A2419",
+     "line": "#403B31",
+     "line-strong": "#73706A",
+     "fg": "#F3F1EC",
+     "muted": "#97948E",
+     "accent": "#C09073",
+     "accent-fg": "#12100C",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "light": [],
+    "dark": [
+     "accent #92400E -> #C09073 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 48,
+   "id": "autumn-rust",
+   "name": "Autumn Rust",
+   "group": "organic",
+   "native": "dark",
+   "mood": "rust on brown-black, craft, seasonal",
+   "accent_name": "Rust Accent",
+   "seed": {
+    "canvas": "#1C1210",
+    "surface": "#2B1D1A",
+    "accent": "#EA580C"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#1C1210",
+     "surface": "#2B1D1A",
+     "raised": "#312421",
+     "line": "#473A37",
+     "line-strong": "#766E6C",
+     "fg": "#F3EDEC",
+     "muted": "#999190",
+     "accent": "#EF8046",
+     "accent-fg": "#120D0C",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87474",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F5F3F2",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DFDEDE",
+     "line-strong": "#8C8987",
+     "fg": "#1A1614",
+     "muted": "#6D6A68",
+     "accent": "#AD4109",
+     "accent-fg": "#FAFAF9",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #EA580C -> #EF8046 (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #EA580C -> #AD4109 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 49,
+   "id": "clean-slate-light",
+   "name": "Clean Slate Light",
+   "group": "organic",
+   "native": "light",
+   "mood": "light slate, docs, legal, tax",
+   "accent_name": "Dark Slate",
+   "seed": {
+    "canvas": "#F8FAFC",
+    "surface": "#F1F5F9",
+    "accent": "#0F172A"
+   },
+   "modes": {
+    "light": {
+     "canvas": "#F1F5F9",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDFDF",
+     "line-strong": "#868A8F",
+     "fg": "#12171C",
+     "muted": "#676B70",
+     "accent": "#0F172A",
+     "accent-fg": "#F9FAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    },
+    "dark": {
+     "canvas": "#0D1217",
+     "surface": "#131B22",
+     "raised": "#1A2229",
+     "line": "#31393F",
+     "line-strong": "#6B6F73",
+     "fg": "#ECF0F3",
+     "muted": "#858A8E",
+     "accent": "#9599A1",
+     "accent-fg": "#0C0F12",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87171",
+     "info": "#60A5FA"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "light": [
+     "canvas #F8FAFC -> #F1F5F9, surface -> #FFFFFF (layering)"
+    ],
+    "dark": [
+     "accent #0F172A -> #9599A1 (4.5:1 on canvas/surface)"
+    ]
+   }
+  },
+  {
+   "n": 50,
+   "id": "earthy-moss",
+   "name": "Earthy Moss",
+   "group": "organic",
+   "native": "dark",
+   "mood": "moss green, agriculture, outdoor",
+   "accent_name": "Moss Green",
+   "seed": {
+    "canvas": "#111412",
+    "surface": "#1E2420",
+    "accent": "#65A30D"
+   },
+   "modes": {
+    "dark": {
+     "canvas": "#111412",
+     "surface": "#1E2420",
+     "raised": "#252B27",
+     "line": "#3B413D",
+     "line-strong": "#727573",
+     "fg": "#EEF1EF",
+     "muted": "#919492",
+     "accent": "#7BB02F",
+     "accent-fg": "#0E110F",
+     "success": "#34D399",
+     "warning": "#FBBF24",
+     "danger": "#F87777",
+     "info": "#60A5FA"
+    },
+    "light": {
+     "canvas": "#F3F4F3",
+     "surface": "#FFFFFF",
+     "raised": "#FFFFFF",
+     "line": "#DEDFDE",
+     "line-strong": "#898A89",
+     "fg": "#161816",
+     "muted": "#6A6C6A",
+     "accent": "#456F09",
+     "accent-fg": "#FAFAFA",
+     "success": "#137337",
+     "warning": "#A24B08",
+     "danger": "#B91C1C",
+     "info": "#1D4ED8"
+    }
+   },
+   "extra": {},
+   "notes": {
+    "dark": [
+     "accent #65A30D -> #7BB02F (4.5:1 on canvas/surface)"
+    ],
+    "light": [
+     "accent #65A30D -> #456F09 (4.5:1 on canvas/surface)"
+    ]
+   }
+  }
+ ]
+}

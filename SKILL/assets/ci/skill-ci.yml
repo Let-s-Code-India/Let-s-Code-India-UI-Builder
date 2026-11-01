@@ -1,0 +1,25 @@
+# Copy to .github/workflows/skill-ci.yml in the repository that holds this skill folder.
+# Adjust SKILL_DIR to the folder path (for example .github/skills/let-s-code-india-ui-builder).
+name: skill-ci
+on:
+  push:
+  pull_request:
+env:
+  SKILL_DIR: .github/skills/let-s-code-india-ui-builder
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install starter dependencies
+        run: npm ci || npm install
+        working-directory: ${{ env.SKILL_DIR }}/assets/starter
+      - name: Run all skill checks
+        run: sh scripts/selftest.sh
+        working-directory: ${{ env.SKILL_DIR }}

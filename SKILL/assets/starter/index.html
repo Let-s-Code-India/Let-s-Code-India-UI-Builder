@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Never add maximum-scale or user-scalable=no: it blocks pinch-zoom (WCAG 1.4.4). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Tells the browser both themes exist, so scrollbars/form controls/first paint match. -->
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="Starter project for Let-s-Code-India-UI-Builder: React, TypeScript and Tailwind CSS v4 with verified design tokens." />
+    <title>Let-s-Code-India UI Starter</title>
+
+    <!-- Fonts: replace with the pair you chose (python3 scripts/font_links.py <id>). -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- No-flash theme: runs before first paint. localStorage can throw (private mode, sandboxes). -->
+    <script>
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
